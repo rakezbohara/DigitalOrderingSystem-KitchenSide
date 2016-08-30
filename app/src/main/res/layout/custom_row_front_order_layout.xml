@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="30dp"
+
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Amt"
+        android:id="@+id/testAmt"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Items"
+        android:id="@+id/testItem"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/testAmt"
+        android:layout_toEndOf="@+id/testAmt"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="57dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/testStatus"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/testItem"
+        android:layout_toEndOf="@+id/testItem"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

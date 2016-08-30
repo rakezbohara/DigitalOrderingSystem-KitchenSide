@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:baselineAligned="true"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+       android:background="#CCFFFFFF">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TableNum"
+            android:textSize="35sp"
+            android:id="@+id/testTableNum"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_key"
+            style="@style/TextColor" />
+        <ListView
+            android:id="@+id/testListView"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_below="@+id/testTableNum"
+            />
+
+
+
+    </RelativeLayout>
+
